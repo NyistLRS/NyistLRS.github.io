@@ -12,88 +12,67 @@
 <!-- 模态框-->
 <div id="modalRef"></div>
 <!-- top navbar start -->
-<div class="navbar navbar-inverse navbar-fixed-top top ">
-<div class="container">
-    <div class="navbar-header">
-        <a class="navbar-brand">这是我的个人网站1111</a>
-    </div>
-    <div>
-        <ul class="nav navbar-nav pull-right">
-            <li class="active"><a href="index.html">首页</a></li>
-            <li><a href="examplePage.html">作品</a></li>
-            <li><a href="#">技能</a></li>
-            <li><a href="#">特长</a></li>
-            <li><a href="vuedemo.html">vue</a></li>
-            <li id="add"><a>登录测试</a></li>
-        </ul>
-    </div>
-</div>
+<div class="navbar navbar-fixed-top top lrs-top">
+  <div class="container">
+      <div class="navbar-header">
+          <a class="navbar-brand">罗荣盛的个人网站</a>
+      </div>
+      <div>
+          <ul class="nav navbar-nav pull-right">
+              <li class="active"><a href="index.html">首页</a></li>
+              <li><a href="examplePage.html">作品</a></li>
+              <li><a href="#">技能</a></li>
+              <li><a href="#">特长</a></li>
+              <li><a href="vuedemo.html">vue</a></li>
+              <li id="add"><a>登录测试</a></li>
+          </ul>
+      </div>
+  </div>
 </div> <!--  top navbar End -->
-<!-- carouse Start -->
-<div class="carousel slide" id="myCarouse">
-    <!-- carouse zhibiao -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarouse" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarouse" data-slide-to="1"></li>
-        <li data-target="#myCarouse" data-slide-to="2"></li>
-        <li data-target="#myCarouse" data-slide-to="3"></li>
-        <li data-target="#myCarouse" data-slide-to="4"></li>
-    </ol>
-    <!-- Carouse item -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="img/bg1.jpg">
-        </div>
-        <div class="item">
-            <img src="img/bg2.jpg">
-        </div>
-        <div class="item">
-            <img src="img/bg3.jpg">
-        </div>
-        <div class="item">
-            <img src="img/bg4.jpg">
-        </div>
-        <div class="item">
-            <img src="img/bg5.jpg">
-        </div>
-    </div>
-    <!--  Carouse navigation-->
-    <a class="carousel-control left" href="#myCarouse" data-slide="prev" ><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="carousel-control right" href="#myCarouse" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div> <!-- carouse End -->
-<!-- content-->
-<section style="min-height: 910px">
-    <div class="jumbotron">
-        <div class="container">
-            <h2>欢迎来到我的个人网站</h2>
-            <p>本站主要应用bootstrap框架实现的</p>
-        </div>
-    </div>
-    <!--  缩略图 -->
-    <div class="row">
-        <div class="col-md-4">
-            <a href="" class="thumbnail">
-                <img src="img/thumbnail2.jpg">
-            </a>
-        </div>
-        <div class="col-md-4">
-            <a href="" class="thumbnail">
-                <img src="img/thumbnail3.jpg">
-            </a>
-        </div>
-        <div class="col-md-4">
-            <a href="" class="thumbnail">
-                <img src="img/thumbnail4.jpg">
-            </a>
-        </div>
-
+<!-- banner -->
+<section class="lrs-banner">
+  <P class="fade-text-left textFadeIn text-shdow">书中自有颜如玉</P>
+  <p class="fade-text-right textFadeInRight text-shdow">书中自有黄金屋</p>
+  <div class="float-layer">
+    <p>view github</p>
+  </div>
 </section>
-</div>
-
-
-<!-- 底部-->
-<div class="navbar navbar-inverse" style="border-radius: 0;margin-bottom: 0;height: 100px;">
-    <div class="container" style="text-align: center;color: white;font-family:微软雅黑;height:40px;line-height: 40px;margin-bottom: 0">底部的版权部分</div>
+<div class="wrap">
+  <section class="me-img">
+  </section>
+  <section class="experience">
+    <h2 class="experience-title"><i class="glyphicon glyphicon-time"></i>工作经历</h2>
+    <ul class="time-stamp">
+      <li>
+          <time>2016-07-04 - 至今</time>
+          <summary>深圳市金政软件技术有限公司</summary>
+          <article>
+              <header class="title">主要职责</header>
+              <ol type="1">
+              	<li>负责公司项目的前端页面的重构</li>
+              	<li>负责公司项目的优化</li>
+              	<li>负责公司前端框架的开发和维护</li>
+              	<li>构建公司的移动端的项目</li>
+              	<li>解决项目的兼容性问题</li>
+              </ol>
+          </article>
+      </li>
+      <li>
+          <time>2015-10-23 - 2016-03-20</time>
+          <summary>上海梓钦信息技术有限公司</summary>
+          <article>
+              <header class="title">主要职责</header>
+              <ol type="1">
+                <li>项目的前端框架的维护</li>
+                <li>参与页面的重构</li>
+              <ol>
+          </article>
+      </li>
+    </ul>
+  </section>
+  <section class="item-experence">
+      <h2 class="experience-title"><i class="glyphicon glyphicon-time"></i>项目作品</h2>
+  </section>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
