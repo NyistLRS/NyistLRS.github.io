@@ -2,80 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>网站首页</title>
+    <title>罗荣盛的博客</title>
     <link rel='icon' href='favicon.ico' type='image/x-ico' />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<!-- 网站1.0版本-->
-<!-- 模态框-->
-<div id="modalRef"></div>
-<!-- top navbar start -->
-<div class="navbar navbar-fixed-top top lrs-top">
-  <div class="container">
-      <div class="navbar-header">
-          <a class="navbar-brand">罗荣盛的个人网站</a>
-      </div>
-      <div>
-          <ul class="nav navbar-nav pull-right">
-              <li class="active"><a href="index.html">首页</a></li>
-              <li><a href="examplePage.html">作品</a></li>
-              <li><a href="#">技能</a></li>
-              <li><a href="#">特长</a></li>
-              <li><a href="vuedemo.html">vue</a></li>
-              <li id="add"><a>登录测试</a></li>
-          </ul>
-      </div>
-  </div>
-</div> <!--  top navbar End -->
-<!-- banner -->
-<section class="lrs-banner">
-  <P class="fade-text-left textFadeIn text-shdow">书中自有颜如玉</P>
-  <p class="fade-text-right textFadeInRight text-shdow">书中自有黄金屋</p>
-  <div class="float-layer">
-    <p>view github</p>
-  </div>
-</section>
-<div class="wrap">
-  <section class="me-img">
-  </section>
-  <section class="experience">
-    <h2 class="experience-title"><i class="glyphicon glyphicon-time"></i>工作经历</h2>
-    <ul class="time-stamp">
-      <li>
-          <time>2016-07-04 - 至今</time>
-          <summary>深圳市金政软件技术有限公司</summary>
-          <article>
-              <header class="title">主要职责</header>
-              <ol type="1">
-              	<li>负责公司项目的前端页面的重构</li>
-              	<li>负责公司项目的优化</li>
-              	<li>负责公司前端框架的开发和维护</li>
-              	<li>构建公司的移动端的项目</li>
-              	<li>解决项目的兼容性问题</li>
-              </ol>
-          </article>
-      </li>
-      <li>
-          <time>2015-10-23 - 2016-03-20</time>
-          <summary>上海梓钦信息技术有限公司</summary>
-          <article>
-              <header class="title">主要职责</header>
-              <ol type="1">
-                <li>项目的前端框架的维护</li>
-                <li>参与页面的重构</li>
-              <ol>
-          </article>
-      </li>
-    </ul>
-  </section>
-  <section class="item-experence">
-      <h2 class="experience-title"><i class="glyphicon glyphicon-time"></i>项目作品</h2>
-  </section>
-</div>
-<script src="js/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/common.js"></script>
+    <!-- top start -->
+   <div class="header">
+       <div class="logo">罗荣盛的个人博客</div>
+       <div class="nav">
+            <div class="nav-item active">
+                <span>首页</span>
+            </div>
+            <div class="nav-item">
+                <span>作品</span>
+            </div>
+            <div class="nav-item">
+                <span>技能</span>
+            </div>
+            <div class="nav-item">
+                <span>特长</span>
+            </div>
+            <div class="nav-item">
+                <span>关于我</span>
+            </div>
+       </div>
+   </div>
+   <!-- top end -->
+   <!-- content start -->
+   <div class="conetnt">
+       <!--  conetnt left start -->
+        <div class="content-left">
+            <div class="banner">
+                <img src="./images/banner.png" alt="">
+                <div class="banner-summry">
+                    <span>超脱自然的生活，和有趣的人一起浪费生命，是很浪漫的事情！~</span>
+                </div>
+            </div>
+        </div>
+        <!-- content left end -->
+        <!-- content right start -->
+        <div class="content-right">
+            <!-- user start -->
+            <div class="user-info">
+                <div class="title">个人名片</div>
+                <div class="uer-info-content">
+
+                </div>
+            </div>
+            <!-- user end -->
+            <!-- search start -->
+            <div class="search">
+                <div class="title">查询</div>
+                <div class="search-content">
+                    <div class="input">
+                        <input type="text" placeholder="请输入关键字">
+                    </div>
+                    <div class="btn">
+                        <button type="button">搜索</button>
+                    </div>
+                </div>
+            </div>
+            <!-- search end -->
+        </div>
+        <!-- conetnt right end -->
+   </div>
+   <!-- content end -->
+<script src="js/index.js"></script>
 </body>
 </html>
