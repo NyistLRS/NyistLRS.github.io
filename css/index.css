@@ -5,6 +5,7 @@ html,body {
 }
 body {
   background-color: #EDEDED;
+  color: #333;
 }
 .header {
   margin-top: 20px;
@@ -48,6 +49,7 @@ body {
 .conetnt {
   margin: 9px auto;
   width: 80%;
+  overflow: hidden;
 }
 .content-left,.content-right {
   float: left;
@@ -91,7 +93,7 @@ body {
   padding-left: 20px;
   font-size: 14px;
   background-color: #F5F5F5;
-
+  border-bottom: 1px solid #EFEFF0;
 }
 .uer-info-content {
   height: 150px;
@@ -132,4 +134,55 @@ body {
   padding: 5px 15px;
   border-radius: 5px;
   background-color: #0FA861;
+}
+.calendar {
+  margin-top: 10px;
+}
+/*  */
+.article-list {
+  background-color: #F2F2F2;
+  margin-top:10px;
+}
+.artile-conetnt {
+  min-height: 300px;
+  padding: 0 20px;
+}
+.article-item {
+  margin-top: 20px;
+  width: 100%;
+  height: 171px;
+  background-color: #fff;
+}
+.calendar-content {
+  height: 200px;
+  background-color: #fff;
+}
+.recommend {
+  margin-top: 10px;
+}
+.recommend-list {
+  height: 200px;
+  background-color: #fff;
+}
+.filter {
+  margin-top: 10px;
+}
+.filter-content {
+  height: 200px;
+  background-color: #fff;
+}
+.count {
+  margin-top: 10px;
+}
+.count-content {
+  height: 215px;
+  background-color: #fff;
+}
+.footer {
+  margin-top: 10px;
+  background-color: #414141;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
 }
